@@ -3,16 +3,21 @@ body {
   margin: 0;
 }
 
+body, html {
+  height: 100%;
+}
+
 .footer {
   bottom: 0;
   position: absolute;
   width: 100%;
   margin: 0;
   height: 95px;
-  box-shadow:-1px -1px 5px grey;
+  box-shadow: -1px -1px 5px grey;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .logo {
@@ -49,67 +54,59 @@ form {
   border: none;
   border-radius: none;
   color: white;
-  box-shadow:  2px 2px 0px white, 7px 7px 0px #D0D5D9,inset 0 0 0 0px #27496d,inset 0 0px 0px #193047;;
+  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 0px #27496d, inset 0 0px 0px #193047;
   font-family: purisa;
   font-weight: bold;
   z-index: 10;
-  transition: box-shadow 3s ease;
+  transition: box-shadow 1s ease;
 }
-
-
 
 input {
-height: 60px;
-/*margin-right: 25px;*/
-background-color: white;
-border: 2px solid #979797;
-box-shadow: none;
-width: 190px;
-display: block;
-font-family: purisa;
-font-size: 20px;
-color: black;
+  height: 60px;
+  /*margin-right: 25px;*/
+  background-color: white;
+  border: 2px solid #979797;
+  box-shadow: none;
+  width: 190px;
+  display: block;
+  font-family: purisa;
+  font-size: 20px;
+  color: black;
 }
 
-input::placeholder{
+input::placeholder {
   font-family: purisa;
   font-size: 20px;
   color: #979797;
-
 }
 
-.password{
-
+.password {
   display: none;
   position: relative;
   right: -227px;
-  opacity:0;
+  opacity: 0;
   z-index: 5;
-
 }
 
-.login{
-
+.login {
   width: 190px;
   display: none;
   position: relative;
   right: -447px;
-  opacity:0;
-
-
+  opacity: 0;
 }
 
 .insetShadow {
-  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 1px #27496d, inset 0 5px 30px #193047;
   transition: box-shadow 1s ease;
 }
 
 .footer a img {
-  max-height:100%;
-  width:auto;
+  max-height: 100%;
+  width: auto;
 }
 
-.footer a img:nth-child(2){
+.footer a img:nth-child(2) {
   margin: 0 50px;
 }
 
@@ -118,5 +115,4 @@ input::placeholder{
   /*display: block;*/
   display: flex;
   position: relative;
-
 }
