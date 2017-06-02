@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+  $(".AIS").click(function(){
+    $(this).toggleClass("insetShadow");
+  })
 $(".connexion").click(function(){
 
   if ($(".password").css("right") < "0px"){
@@ -18,7 +20,7 @@ $(".login").animate({
 }
 
   // $(this).css("box-shadow","inset 0 0 0 1px #27496d,inset 0 5px 30px #193047");
-$(this).toggleClass("insetShadow");
+
 
   if (($(".login").val())!== "" && ($(".password").val())!== ""){
     window.location.href = "./reglement.php";

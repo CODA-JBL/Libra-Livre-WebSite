@@ -22,18 +22,22 @@ $(document).ready (function(){
 //-------------------------fonction hover livre => RESUME-------------//
         $(".ensembledroite").hide();
         $(".livre").hover(function(){
-
-          //on créer une variable qui recupere
+          //on créer une variable qui recupere l'ID de .livre//
         var theBook = (this).getAttribute('id').substr(5,((this).getAttribute('id').length ));
         $('#resume').html('<b><h3>' + data.books[theBook].title + '</h3><br>' + data.books[theBook].description+ '</b>');
-        $('.ensembledroite').toggle();
+        $('.ensembledroite').show(100);
+//         $(".livre").scroll(function(){
+//           $(".ensembledroite").scroll();
+// window.scrollTo(0, $(".ensembledroite").offset().top);
+// });
+ });
 
-        });
       },
         error : function() {
         $('#resume').html('erreur chargement');
         }
     });
+
 
 //------------------------------------------------------------------------------
 });

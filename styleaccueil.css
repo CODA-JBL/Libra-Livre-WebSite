@@ -1,105 +1,143 @@
-*{
+* {
   /*border: 1px solid black;*/
   font-family: "Purisa";
 }
-.accueil .container{
+
+.accueil .container {
   width: 50%;
   padding: 0;
 }
-.accueil .input-group{
-margin-bottom: 20px;
-margin-top: 20px;
+
+.accueil .input-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.accueil .input-group img{
+
+.accueil .input-group img {
   height: 20px;
 }
-.accueil #navbar{
+
+.accueil #navbar {
   padding: 0;
   width: 95%;
   margin: auto;
 }
-.accueil #navbar ul{
+
+.accueil #navbar ul {
   padding: 0;
   margin: 0;
 }
-.accueil #navbar a{
+
+.btnAccueil {
   width: 8vw;
-  padding: 1vw;
+  padding: 20px 0;
   background-color: #F6AC2E;
   color: white;
   font-weight: bold;
   text-align: center;
   font-size: 1vw;
-  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
+  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 0px #27496d, inset 0 0px 0px #193047;
   margin: 0px 0.5vw 10px 0.5vw;
+  transition: box-shadow 1s ease;
 }
-.accueil #navbar a:hover{
-  border: 1px solid black;
+.insetShadow {
+  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 1px #27496d, inset 0 2px 15px #193047;
+  transition: box-shadow 1s ease;
 }
-.accueil #navbar a:focus{
-  border: 1px solid black;
+
+.accueil #navbar a:hover {
+  /*border: 1px solid black;*/
+  /*padding: 19px 0;*/
+  color: white;
+  background-color: #F6AC2E;
 }
-.accueil .row{
-  margin-top: 10px;
+
+.accueil #navbar a:focus {
+  /*border: 1px solid black;*/
+  /*padding: 19px 0;*/
+  color: white;
+  background-color: #F6AC2E;
 }
-.accueil .grille{
-  padding:0;
+
+.accueil .row {
+  margin: 20px 0;
+}
+
+.accueil .grille {
+  padding: 0;
   margin: 0;
 }
-.accueil .livre{
+
+.accueil .livre {
   padding: 5px;
 }
-.accueil .livre img{
+
+.accueil .livre img {
   width: 100%;
 }
-.accueil .livre:hover{
+
+.accueil .livre:hover {
   background-color: #2FA0BE;
 }
-.accueil .ensemblegauche{
+
+.accueil .ensemblegauche {
   width: 50%;
   margin: auto;
   font-weight: bold;
   text-align: center;
   border: 1px solid #D0D5D9;
   border-top: none;
-    box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
+  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
 }
-.accueil .menugauche ul{
-padding-bottom: 0px;
+
+.accueil .menugauche ul {
+  padding-bottom: 0px;
 }
-.accueil .menugauche h2{
+
+.accueil .menugauche h2 {
   margin: 0px 0px 10px 0px;
   padding-top: 10px;
   border-bottom: 1px solid #D0D5D9;
   border-top: 1px solid #D0D5D9;
 }
-.accueil .menugauche a{
+
+.accueil .menugauche a {
   border-radius: 0px;
-padding: 3px 0px 3px 0px;
+  padding: 3px 0px 3px 0px;
 }
-.accueil .menugauche a:hover{
+
+.accueil .menugauche a:hover {
   background-color: #CED4D8;
 }
-.accueil .menugauche a:focus{
+
+.accueil .menugauche a:focus {
   background-color: #2FA0BE;
   color: white;
 }
-.accueil .ensembledroite{
-width: 50%;
-margin: auto;
-border: 1px solid #D0D5D9;
-padding: 10px;
-color: #337AB7;
+
+.accueil .menudroite {}
+
+.accueil .ensembledroite {
+  height: 470px;
+  overflow: scroll;
+  width: 50%;
+  margin: auto;
+  border: 1px solid #D0D5D9;
+  padding: 10px;
+  color: #337AB7;
   box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
 }
-.accueil .menudroite h3{
+
+.accueil .menudroite h3 {
   margin-top: 10px;
-  color:black;
+  color: black;
 }
-.accueil .btn-blue img{
+
+.accueil .btn-blue img {
   width: 30px;
   height: 30px;
 }
-.accueil .icon-bar{
+
+.accueil .icon-bar {
   border: 3px solid #F6AC2E;
 }
