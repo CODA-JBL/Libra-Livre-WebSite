@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".AIS").click(function(){
     $(this).toggleClass("insetShadow");
-  })
+  });
 $(".connexion").click(function(){
 
   if ($(".password").css("right") < "0px"){
