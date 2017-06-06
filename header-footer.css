@@ -27,7 +27,7 @@ body, html {
 
 .logo-link {
   padding: 0;
-  max-width: 40%;
+  /*max-width: 40%;*/
   margin-left: 50px;
 }
 
@@ -50,11 +50,11 @@ form {
 .connexion {
   padding: 10px 17px 10px 17px;
   font-size: 30px;
-  background-color: #65BAAA;
+  background-color: #D15595;
   border: none;
-  border-radius: none;
+  border-radius: 0;
   color: white;
-  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 0px #27496d, inset 0 0px 0px #193047;
+  box-shadow: 2px 2px 0 white, 7px 7px 0 #D0D5D9, inset 0 0 0 0 #27496d, inset 0 0 0 #193047;
   font-family: purisa;
   font-weight: bold;
   z-index: 10;
@@ -97,7 +97,7 @@ input::placeholder {
 }
 
 .insetShadow {
-  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 1px #27496d, inset 0 5px 30px #193047;
+  box-shadow: 2px 2px 0 white, 7px 7px 0 #D0D5D9, inset 0 0 0 1px #27496d, inset 0 5px 30px #193047;
   transition: box-shadow 1s ease;
 }
 

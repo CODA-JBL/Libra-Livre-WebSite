@@ -1,31 +1,112 @@
 $(document).ready(function() {
-  $(".AIS").click(function(){
-    $(this).toggleClass("insetShadow");
-  });
-$(".connexion").click(function(){
 
-  if ($(".password").css("right") < "0px"){
-  $(".password").show();
-  $(".password").animate({
-    right: "+=252px",
-    opacity: "1"
-  }, 1000) ;
+  var count = false;
+var enter;
+  function login(data) {
+    for (var i = 0; i < data.users.length; i++) {
 
+      if (($(".login").val()) == data.users[i].firstname && ($(".password").val()) == data.users[i].password && data.users[i].admin == "true") {
 
-$(".login").show();
-$(".login").animate({
-  right: "+=497px",
-  opacity: "1"
-}, 1000) ;
-}
+        window.location.href = "./administration.php";
+   localStorage.setItem("connected",true);
+enter = true;
+break;
+      } else if (($(".login").val()) == data.users[i].firstname && ($(".password").val()) == data.users[i].password) {
 
-  // $(this).css("box-shadow","inset 0 0 0 1px #27496d,inset 0 5px 30px #193047");
+localStorage.setItem("connected",true);
+        window.location.href = "./reglement.php";
+        enter= true;
+break;
 
 
-  if (($(".login").val())!== "" && ($(".password").val())!== ""){
-    window.location.href = "./reglement.php";
+      }
+    }
+    if (enter !== true) {
+      alert("nope!");
+    }
   }
 
-});
+  function check_login() {
+    $(".connexion").click(function() {
+      $.ajax({
+        url: 'list.json',
+        type: 'get',
+        dataType: 'json',
+
+        success: function(data) {
+          login(data);
+
+          // if (login(data) === true){
+          //
+          // } else {
+          //   alert("");
+          // }
+
+        },
+        error: function() {
+          $('body').html('erreur chargement');
+        }
+      });
+    });
+  }
+
+  function reset_login() {
+    if (count === false) {
+      $(".login").val("");
+      $(".password").val("");
+      count = true;
+    }
+  }
+
+  function animate_login() {
+    $(".connexion").addClass("insetShadow");
+    if ($(".password").css("right") < "0px") {
+      $(".connexion").addClass("insetShadow");
+      $(".password").show();
+      $(".password").animate({
+        right: "+=252px",
+        opacity: "1"
+      }, 1000);
+
+      $(".login").show();
+      $(".login").animate({
+        right: "+=497px",
+        opacity: "1"
+      }, 1000, function() {
+
+        check_login();
+      });
+    }
+  }
+
+  $(".connexion").click(function() {
+    reset_login();
+
+    animate_login();
+
+
+
+  });
+
+  $(".btnAccueil").click(function() {
+    $(this).toggleClass("insetShadow");
+  });
+
+
+  $('.password').keypress(function(e) {
+    if (e.which == 13) {
+      check_login();
+
+      return false;
+    }
+  });
+
+  // if (login(data) === true){
+  //   $(".connexion").val("Déconnexion");
+  // }
+
+
+
+
 
 });
