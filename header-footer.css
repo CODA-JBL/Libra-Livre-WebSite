@@ -12,7 +12,7 @@ body, html {
   position: absolute;
   width: 100%;
   margin: 0;
-  height: 95px;
+  height: 70px;
   box-shadow: -1px -1px 5px grey;
   display: flex;
   justify-content: center;
@@ -63,7 +63,6 @@ form {
 
 input {
   height: 60px;
-  /*margin-right: 25px;*/
   background-color: white;
   border: 2px solid #979797;
   box-shadow: none;
@@ -97,7 +96,7 @@ input::placeholder {
 }
 
 .insetShadow {
-  box-shadow: 2px 2px 0 white, 7px 7px 0 #D0D5D9, inset 0 0 0 1px #27496d, inset 0 5px 30px #193047;
+  box-shadow: 2px 2px 0 white, 7px 7px 0 #D0D5D9, inset 0 0 0 4px #27496d, inset 0 7px 35px #193047;
   transition: box-shadow 1s ease;
 }
 

@@ -1,24 +1,23 @@
 $(document).ready(function() {
 
   var count = false;
-var enter;
+  var enter;
+
   function login(data) {
     for (var i = 0; i < data.users.length; i++) {
 
       if (($(".login").val()) == data.users[i].firstname && ($(".password").val()) == data.users[i].password && data.users[i].admin == "true") {
 
         window.location.href = "./administration.php";
-   localStorage.setItem("connected",true);
-enter = true;
-break;
+        localStorage.setItem("connected", true);
+        enter = true;
+        break;
       } else if (($(".login").val()) == data.users[i].firstname && ($(".password").val()) == data.users[i].password) {
 
-localStorage.setItem("connected",true);
+        localStorage.setItem("connected", true);
         window.location.href = "./reglement.php";
-        enter= true;
-break;
-
-
+        enter = true;
+        break;
       }
     }
     if (enter !== true) {
@@ -35,13 +34,6 @@ break;
 
         success: function(data) {
           login(data);
-
-          // if (login(data) === true){
-          //
-          // } else {
-          //   alert("");
-          // }
-
         },
         error: function() {
           $('body').html('erreur chargement');
@@ -100,13 +92,5 @@ break;
       return false;
     }
   });
-
-  // if (login(data) === true){
-  //   $(".connexion").val("Déconnexion");
-  // }
-
-
-
-
 
 });

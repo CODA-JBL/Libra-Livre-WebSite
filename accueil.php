@@ -37,11 +37,11 @@
           <ul class="nav nav-pills nav-stacked">
             <li><a id="eveil" href="#">Eveil</a></li>
             <li><a id="BD" href="#">Bande déssiné</a></li>
-            <li><a id="contes" href="#">Contes</a></li>
+            <li><a id="contes" href="#">Conte</a></li>
             <li><a id="aventure" href="#">Aventure</a></li>
             <li><a id="fantaisie" href="#">Fantaisie</a></li>
-            <li><a id="mangas" href="#">Mangas</a></li>
-            <li><a id="romans" href="#">Romans</a></li>
+            <li><a id="mangas" href="#">Manga</a></li>
+            <li><a id="romans" href="#">Roman</a></li>
             <li><a id="SF" href="#">Science fiction</a></li>
             <li><a id="bio" href="#">Biographie</a></li>
             <li><a id="sco" href="#">Scolaire</a></li>
@@ -50,7 +50,7 @@
           <ul class="nav nav-pills nav-stacked">
             <li><a href="#">Alphabétique</a></li>
             <li><a href="#">Popularité</a></li>
-            <li><a href="#">Nouveautés</a></li>
+            <li><a href="#">Nouveauté</a></li>
           </ul>
         </div>
       </div>
