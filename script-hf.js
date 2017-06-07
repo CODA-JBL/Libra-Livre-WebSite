@@ -62,7 +62,7 @@ $(document).ready(function() {
       // }, 1000);
 
       // $(".login").show();
-      $(".login").addClass("anim_login");
+      // $(".login").addClass("anim_login");
       // $(".login").animate({
         // right: "+=497px",
         // opacity: "1"
@@ -75,7 +75,7 @@ $(document).ready(function() {
 
   $(".connexion").click(function() {
     reset_login();
-
+// $(this).hide();
     animate_login();
 
 

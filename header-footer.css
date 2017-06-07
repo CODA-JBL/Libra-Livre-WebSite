@@ -119,19 +119,20 @@ input::placeholder {
 }
 
 .anim_login {
-  animation: login 2s;
+  /*animation: login 2s;*/
+  right: 20px;
   display: block;
 
 }
 
 .anim_pass {
-  animation: pass 2s ease;
+  animation: pass 2s ease-in-out;
   display: block;
 }
 
 @keyframes login{
 
-  0% { right: 20px; opacity: 1;}
+  0% { right: -207px; opacity: 1;}
   75% {right: 20px; opacity:.1;}
   100% {right: 20px; opacity: 1;}
 
@@ -140,6 +141,8 @@ input::placeholder {
 @keyframes pass{
 
   0% { right: -207px; opacity: 1;}
-  75% {right: 40px; opacity: 1;}
+  50% {right: 60px; opacity: 1;}
+  65% {right: 10px; opacity: 1;}
+  80% {right: 30px; opacity: 1;}
   100% {right: 20px; opacity: 1;}
 }
