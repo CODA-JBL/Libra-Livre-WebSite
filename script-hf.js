@@ -51,24 +51,26 @@ $(document).ready(function() {
   }
 
   function animate_login() {
-    $(".connexion").addClass("insetShadow");
-    if ($(".password").css("right") < "0px") {
-      $(".connexion").addClass("insetShadow");
-      $(".password").show();
-      $(".password").animate({
-        right: "+=252px",
-        opacity: "1"
-      }, 1000);
+    $(".connexion").addClass("insetShadowH");
+    // if ($(".password").css("right") < "0px") {
+      // $(".connexion").addClass("insetShadowH");
+      // $(".password").show();
+      $(".password").addClass("anim_pass");
+      // $(".password").animate({
+      //   right: "+=252px",
+      //   opacity: "1"
+      // }, 1000);
 
-      $(".login").show();
-      $(".login").animate({
-        right: "+=497px",
-        opacity: "1"
-      }, 1000, function() {
+      // $(".login").show();
+      $(".login").addClass("anim_login");
+      // $(".login").animate({
+        // right: "+=497px",
+        // opacity: "1"
+      // }, 1000, function() {
 
-        check_login();
-      });
-    }
+        // check_login();
+      // });
+    // }
   }
 
   $(".connexion").click(function() {
