@@ -81,9 +81,9 @@ input::placeholder {
 
 .password {
   display: none;
-  position: relative;
+  position: absolute;
   width: 190px;
-  right: 20px;
+  right: 277px;
   /*opacity: 0;*/
   z-index: 5;
 }
@@ -91,8 +91,8 @@ input::placeholder {
 .login {
   width: 190px;
   display: none;
-  position: relative;
-  right: 40px;
+  position: absolute;
+  right: 487px;
   /*opacity: 0;*/
 }
 
@@ -119,27 +119,32 @@ input::placeholder {
 }
 
 .anim_login {
-  animation: login 2s;
+  animation: login 1.5s ease-in-out ;
+
   display: block;
 
 }
 
 .anim_pass {
-  animation: pass 2s ease;
+  animation: pass 1.5s ease-in-out;
   display: block;
 }
 
 @keyframes login{
 
-  0% { right: 20px; opacity: 1;}
-  75% {right: 20px; opacity:.1;}
-  100% {right: 20px; opacity: 1;}
+  0% { right: 67px; opacity: 1;}
+  40% {right: 687px; opacity: 1;}
+  60% {right: 467px; opacity: 1;}
+  80% {right: 507px; opacity: 1;}
+  100% {right: 487px; opacity: 1;}
 
 }
 
 @keyframes pass{
 
-  0% { right: -207px; opacity: 1;}
-  75% {right: 40px; opacity: 1;}
-  100% {right: 20px; opacity: 1;}
+  0% { right: 67px; opacity: 1;}
+  40% {right: 687px; opacity: 1;}
+  60% {right: 467px; opacity: 1;}
+  80% {right: 507px; opacity: 1;}
+  100% {right: 487px; opacity: 1;}
 }

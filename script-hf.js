@@ -55,7 +55,7 @@ $(document).ready(function() {
     // if ($(".password").css("right") < "0px") {
       // $(".connexion").addClass("insetShadowH");
       // $(".password").show();
-      $(".password").addClass("anim_pass");
+
       // $(".password").animate({
       //   right: "+=252px",
       //   opacity: "1"
@@ -63,6 +63,9 @@ $(document).ready(function() {
 
       // $(".login").show();
       $(".login").addClass("anim_login");
+
+// window.setTimeout(function(){$(".password").addClass("anim_pass");}, 500);
+// $(".password").addClass("anim_pass");
       // $(".login").animate({
         // right: "+=497px",
         // opacity: "1"
@@ -75,7 +78,7 @@ $(document).ready(function() {
 
   $(".connexion").click(function() {
     reset_login();
-
+// $(this).hide();
     animate_login();
 
 
