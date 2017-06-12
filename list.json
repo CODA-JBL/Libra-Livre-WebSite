@@ -1,5 +1,5 @@
 {
-"books":[
+  "books": [
     {
       "ISBN": "9791092353358",
       "title": "La reine des coquillages",
@@ -69,7 +69,7 @@
       "year": "mars 2017",
       "genre": "Album",
       "age": "Cadet",
-      "cover": "https://www.livralire.org/wp-content/uploads/2017/04/glory.jpg",
+      "cover": "http://ref.lamartinieregroupe.com/media/9791023508468/hd/134498_couverture_Hres_0.jpg",
       "description": "En mémoire de son grand-père qui lui contait des histoires de mustangs, un homme d’affaires décide d’organiser une course d’endurance à cheval à travers l’ouest américain. Pour le vainqueur, la gloire et 250 000 dollars. Parmi les concurrents, deux jeunes téméraires. Alex, une  jeune fille échappée d’un centre de rééducation,  monte un vieux palomino et Will, un cheval qu’il veut sauver de l’abattoir. Elle veut regagner l’estime de ses parents. Il espère payer l’hospitalisation de son père. Le hasard de la chevauchée  de 2000 kilomètres les fait se rencontrer et affronter difficultés techniques et rivalités."
     },
     {
@@ -106,7 +106,7 @@
       "genre": "Roman",
       "age": "Grand ado",
       "cover": "https://www.livralire.org/wp-content/uploads/2017/01/gar%C3%A7onquicourait.jpg",
-      "description": "En 1919, la Corée est sous domination japonaise. Après que son frère aîné ait commis un acte de résistance à l’école qui lui vaudra la déportation, Kee-chung échappe à la police en sprintant. Il met ses talents sportifs au service de son père, marchand de quatre saisons, en courant chaque matin avant l’école jusqu’à la frontière chinoise pour acheter des melons et des pastèques, très prisés des Japonais. Un professeur qui a remarqué son agilité devient son entraîneur et lui parle des jeux olympiques. Des années plus tard, à l’université, on lui propose une préparation gratuite pour les JO de Berlin."
+      "description": "En 1919, la Corée est sous domination japonaise. Après que son frère aîné ait commis un acte de résistance à l’école qui lui vaudra la déportation, Kee-chung échappe à la police en sprintant. Il met ses talents sportifs au service de son père, marchand de quatre saisons, en courant chaque matin avant l’école jusqu’à la frontière chinoise pour acheter des melons et des pastèques, très prisés des Japonais. Un professeur qui a remarqué son agilité devient son entraîneur et lui parle des jeux olympiques. Des années plus tard, à l’université, on lui propose une préparation gratuite pour les JO de Berlin. Il hésite. S’il gagnait le marathon, il pourrait faire connaître son pays. Mais peut-il accepter de participer à la compétition sous un nom japonais et avec un dossard aux couleurs de l’envahisseur ? Et s’il gagnait, quel serait son sort et celui de sa famille ?"
     },
     {
       "ISBN": "9722278059461",
@@ -142,7 +142,7 @@
       "genre": "Roman",
       "age": "Junior",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/61qGBg0zbZL.jpg",
-      "description": "Jonas, 15 ans, vit avec sa famille en Erythrée. Sa passion : les poissons. Son rêve : quitter l’école et accompagner son père à la pêche. Le maître croit libérer son élève de la corvée scolaire en le faisant enrôler dans l’armée. Les parents de Jonas, connaissant la violence exercée sur les recrues, enjoignent leur fils de partir au plus vite en Europe. Après un voyage très difficile où on lui vole des vêtements et sa carte d’identité, il arrive à Calais, objectif l’Angleterre où l’accueillera un cousin."
+      "description": "Jonas, 15 ans, vit avec sa famille en Erythrée. Sa passion : les poissons. Son rêve : quitter l’école et accompagner son père à la pêche. Le maître croit libérer son élève de la corvée scolaire en le faisant enrôler dans l’armée. Les parents de Jonas, connaissant la violence exercée sur les recrues, enjoignent leur fils de partir au plus vite en Europe. Après un voyage très difficile où on lui vole des vêtements et sa carte d’identité, il arrive à Calais, objectif l’Angleterre où l’accueillera un cousin. Jonas se fait rouler par un passeur : sa première tentative de traversée est un échec. Il s’installe dans un abri de fortune, rencontre des calaisiens de son âge qui ont bien du mal à l’aider. Il faudrait déjà pouvoir se comprendre…"
     },
     {
       "ISBN": "9782070669967",

@@ -40,7 +40,7 @@ body, html {
   box-shadow: 1px 1px 5px grey;
 }
 
-form {
+.header form {
   align-self: center;
   margin-right: 50px;
   display: flex;
@@ -61,45 +61,48 @@ form {
   transition: box-shadow 1s ease;
 }
 
-input {
+.password {
+
+
+  right: 277px;
+  display: none;
+
+}
+
+.login {
+
+
+
+  right: 487px;
+  display: none;
+  z-index: 5;
+
+}
+
+.header input {
+  opacity: 1;
+
+  position: absolute;
   height: 60px;
   background-color: white;
   border: 2px solid #979797;
   box-shadow: none;
   width: 190px;
-  display: block;
   font-family: purisa;
   font-size: 20px;
   color: black;
 }
 
-input::placeholder {
+.header input::placeholder {
   font-family: purisa;
   font-size: 20px;
   color: #979797;
-}
-
-.password {
-  display: none;
-  position: relative;
-  width: 190px;
-  right: 20px;
-  /*opacity: 0;*/
-  z-index: 5;
-}
-
-.login {
-  width: 190px;
-  display: none;
-  position: relative;
-  right: 40px;
-  /*opacity: 0;*/
+  opacity: 0.7;
 }
 
 .insetShadowH {
   box-shadow: 2px 2px 0 white, 7px 7px 0 #D0D5D9, inset 0 0 0 1px black, inset 0 4px 25px black;
   transition: box-shadow 1s ease;
-
 }
 
 .footer a img {
@@ -119,27 +122,57 @@ input::placeholder {
 }
 
 .anim_login {
-  animation: login 2s;
+  animation: login 1.5s ease-in-out;
   display: block;
-
 }
 
 .anim_pass {
-  animation: pass 2s ease;
+  animation: pass 1.5s ease-in-out;
   display: block;
 }
 
-@keyframes login{
-
-  0% { right: 20px; opacity: 1;}
-  75% {right: 20px; opacity:.1;}
-  100% {right: 20px; opacity: 1;}
-
+@keyframes login {
+  0% {
+    right: 67px;
+    opacity: 0.1;
+  }
+  30% {
+    right: 547px;
+    opacity: 0.3;
+  }
+  60% {
+    right: 467px;
+    opacity: 0.6;
+  }
+  80% {
+    right: 497px;
+    opacity: 0.8;
+  }
+  100% {
+    right: 487px;
+    opacity: 1;
+  }
 }
 
-@keyframes pass{
-
-  0% { right: -207px; opacity: 1;}
-  75% {right: 40px; opacity: 1;}
-  100% {right: 20px; opacity: 1;}
+@keyframes pass {
+  0% {
+    right: 67px;
+    opacity: 0.1;
+  }
+  30% {
+    right: 327px;
+    opacity: 0.3;
+  }
+  60% {
+    right: 257px;
+    opacity: 0.6;
+  }
+  80% {
+    right: 287px;
+    opacity: 0.8;
+  }
+  100% {
+    right: 277px;
+    opacity: 1;
+  }
 }

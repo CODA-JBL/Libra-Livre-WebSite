@@ -60,18 +60,18 @@
         <!-- <div id="my_carousel" class="carousel slide" data-ride="carousel"> -->
           <!-- <div class="carousel-page"> -->
             <div class="row">
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre0"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre1"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre2"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre3"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre4"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre5"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre6"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre7"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre8"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre9"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre10"></div>
-              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre11"></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre0"> <div class="fav"></div> </div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre1"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre2"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre3"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre4"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre5"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre6"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre7"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre8"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre9"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre10"><div class="fav"></div></div>
+              <div class="livre col-xs-6 col-sm-6 col-md-2" id="livre11"><div class="fav"></div></div>
             </div>
           <!-- </div> -->
           <!-- </div> -->
