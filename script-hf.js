@@ -21,11 +21,12 @@ $(document).ready(function() {
       }
     }
     if (enter !== true) {
-      alert("nope!");
+      alert("Identifiants ou mots de passe invalide.");
     }
   }
 
   function check_login() {
+
     $(".connexion").click(function() {
       $.ajax({
         url: 'list.json',
@@ -34,6 +35,7 @@ $(document).ready(function() {
 
         success: function(data) {
           login(data);
+          // alert("nope!");
         },
         error: function() {
           $('body').html('erreur chargement');
@@ -65,13 +67,13 @@ $(document).ready(function() {
       $(".login").addClass("anim_login");
 
 // window.setTimeout(function(){$(".password").addClass("anim_pass");}, 500);
-// $(".password").addClass("anim_pass");
+$(".password").addClass("anim_pass");
       // $(".login").animate({
         // right: "+=497px",
         // opacity: "1"
       // }, 1000, function() {
 
-        // check_login();
+        check_login();
       // });
     // }
   }
