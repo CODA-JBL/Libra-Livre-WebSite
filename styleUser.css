@@ -1,0 +1,18 @@
+.livre{
+    height: 300px;
+heigth: auto;
+    border: 1px solid black;
+}
+#myCarousel{
+    margin-top: 100px;
+}
+.row{
+    padding: 50px;
+}
+.boxinfos{
+    height: 500px;
+    border : 1px solid black;
+}
+#alerte{
+    width: 300px;
+}
