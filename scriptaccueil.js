@@ -21,7 +21,7 @@ $(document).ready (function(){
 
 //-------------------------fonction hover livre => RESUME-------------//
         $(".ensembledroite").hide();
-        $(".livre").click(function(){
+        $(".livre").hover(function(){
 
           //on créer une variable qui recupere l'ID de .livre//
         var theBook = (this).getAttribute('id').substr(5,((this).getAttribute('id').length ));
@@ -39,7 +39,7 @@ $(document).ready (function(){
         // $(this).children(".fav").removeClass("anim_fav_rev");
         // $(this).find("img").toggleClass("blurImg");
         $(this).children(".fav").toggleClass("anim_fav");
-        $(this).children(".fav").html("</br>" +'<a class="fiche_link" href="./fiche.php">'+ data.books[theBook].title + '</a>' + '</br><a href="./userpage.html"><img class="add_img" src="./star-add.png"></a>');
+        $(this).children(".fav").html("</br>" +'<a class="fiche_link" href="./fiche.php">'+ data.books[theBook].title + '</a>' + '</br><a href="userpage.php"><img class="add_img" src="./star-add.png"></a>');
 
 
 

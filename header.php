@@ -1,5 +1,5 @@
 <nav class="header">
-      <a class="logo-link" href="#">
+      <a class="logo-link" href="index.php">
         <img class="logo" src="./images/image.png" alt="">
         <img class="titre logo" src="./images/TITRE.png" alt="">
       </a>

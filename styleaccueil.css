@@ -171,17 +171,20 @@ transition: width 0.5s ease;
 
 .accueil .menudroite {
   overflow: hidden;
+
 }
 
 .accueil .ensembledroite {
   height: 510px;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   width: 50%;
   margin: auto;
   border: 1px solid #D0D5D9;
   padding: 10px;
   color: #337AB7;
-  box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
+ box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
+
+
 }
 
 .accueil .menudroite h3 {

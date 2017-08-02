@@ -1,18 +1,77 @@
-.livre{
-    height: 300px;
-heigth: auto;
-    border: 1px solid black;
-}
-#myCarousel{
-    margin-top: 100px;
-}
-.row{
-    padding: 50px;
-}
+
 .boxinfos{
-    height: 500px;
+    height: 470px;
     border : 1px solid black;
 }
+
 #alerte{
+
     width: 300px;
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    background-color : #8b211e;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+    border : none;
+    box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9;
+}
+#alerte:hover{
+    font-size: 22px;
+    padding: 20px;
+}
+
+.livreCar {
+    padding: 100px;
+}
+
+.infos{
+    padding-top: 90px;
+    padding-left: 100px;
+}
+
+.livreCar h2{
+    text-align: center;
+}
+.favbox, .empbox{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    border : 1px solid black;
+    overflow-x: scroll;
+    display: flex;
+    padding: 10px;
+}
+
+.favbox{
+    margin-bottom: 50px;
+
+}
+
+.bandeaureg{
+    height: 70px;
+    background-color: #66BBAB;
+}
+.bandeaureg p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 18px;
+}
+.bandeaureg a{
+    background-color: #F9BA2B;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    padding: 7px;
+    box-shadow: 2px 2px 0px #66BBAB, 7px 7px 0px #D0D5D9;
+}
+.bandeaureg a:hover{
+    text-decoration: none;
+}
+.book_img{
+    margin-right: 10px;
 }
