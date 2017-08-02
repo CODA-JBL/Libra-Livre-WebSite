@@ -1,6 +1,6 @@
 @font-face {
     font-family: Purisa;
-    src: url(./fonts/Purisa.ttf);
+    src: url(../fonts/Purisa.ttf);
 }
 
 * {
@@ -63,13 +63,13 @@ h5 {
 }
 .insetShadow {
   box-shadow: 2px 2px 0px white, 7px 7px 0px #D0D5D9, inset 0 0 0 1px #27496d, inset 0 2px 15px #193047;
-  transition: box-shadow 1s ease, color 1s ease;
+  transition: box-shadow 0.5s ease;
   /*color: #005680 !important;*/
 }
 
 .insetShadow:hover {
-  color: white !important;
-  transition: color 1s ease;
+  /*color: white !important;*/
+  /*transition: color 1s ease;*/
 }
 
 .accueil #navbar a {

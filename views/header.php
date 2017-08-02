@@ -1,7 +1,7 @@
 <nav class="header">
       <a class="logo-link" href="index.php">
-        <img class="logo" src="./images/image.png" alt="">
-        <img class="titre logo" src="./images/TITRE.png" alt="">
+        <img class="logo" src="./img/image.png" alt="">
+        <img class="titre logo" src="./img/TITRE.png" alt="">
       </a>
       <form>
           <input class="login" type="text" name="" value="" placeholder="Identifiant">
