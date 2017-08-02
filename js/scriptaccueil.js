@@ -39,7 +39,7 @@ $(document).ready (function(){
         // $(this).children(".fav").removeClass("anim_fav_rev");
         // $(this).find("img").toggleClass("blurImg");
         $(this).children(".fav").toggleClass("anim_fav");
-        $(this).children(".fav").html('<a class="fiche_link" href="./fiche.php">'+ data.books[theBook].title + '</a>' + '</br><a class="fav_link" href="userpage.php"><img class="add_img" src="./img/icons/star-add.png"></a>');
+        $(this).children(".fav").html('<a class="fiche_link" href="./fiche.php">'+ data.books[theBook].title + '</a>' + '</br><a class="fav_link" href="./views/userpage.php"><img class="add_img" src="./img/icons/star-add.png"></a>');
 
 
 

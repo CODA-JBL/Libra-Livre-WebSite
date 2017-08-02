@@ -1,18 +1,27 @@
+// Vérifie si l'url de la page contient "userpage",
+// si oui l'utilisateur est connécté donc le bouton connexion est remplacé par le bouton deconnexion
+
+if ( window.location.href.indexOf('userpage')> -1){
+    $('.connexion').html('Deconnexion').removeClass('AIS connexion').addClass('deconnexion').wrap('<a href="index.php"></a>');
+}
+
 $(document).ready(function() {
 
   var count = false;
   var enter;
 
+
+
   function login(data) {
     for (var i = 0; i < data.users.length; i++) {
 
-      if (($(".login").val()) == data.users[i].firstname && ($(".password").val()) == data.users[i].password && data.users[i].admin == "true") {
+      if (($(".login").val()) === data.users[i].firstname && ($(".password").val()) === data.users[i].password && data.users[i].admin === "true") {
 
         window.location.href = "./administration.php";
         localStorage.setItem("connected", true);
         enter = true;
         break;
-      } else if (($(".login").val()) == data.users[i].firstname && ($(".password").val()) == data.users[i].password) {
+      } else if (($(".login").val()) === data.users[i].firstname && ($(".password").val()) === data.users[i].password) {
 
         localStorage.setItem("connected", true);
         window.location.href = "./reglement.php";
@@ -99,5 +108,4 @@ $(".password").addClass("anim_pass");
       return false;
     }
   });
-
 });
