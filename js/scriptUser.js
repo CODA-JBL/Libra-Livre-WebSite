@@ -4,9 +4,6 @@ $(document).ready(function(){
         alert("Retard : ... / ...");
     })
 
-    $("#btnreg").click(function(){
-        alert("Reglement : ...");
-    })
 
     $.ajax({
         url: 'list.json',

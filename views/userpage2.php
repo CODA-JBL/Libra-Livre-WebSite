@@ -1,5 +1,5 @@
 <div class="bandeaureg">
-    <p>Veuillez prendre connaissance du réglement avant d'éfectuer vôtre premier emprunt &nbsp &nbsp<a id="btnreg">Consulter</a></p>
+    <p>Veuillez prendre connaissance du réglement avant d'éfectuer vôtre premier emprunt &nbsp &nbsp<a id="btnreg" href="./views/reglement.php" >Consulter</a></p>
 </div>
 
 <div class="row">
